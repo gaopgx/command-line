@@ -1,1 +1,21 @@
 
+# command-line
+## expectation usage
+
+#### see-dashboard -token -basepath 
+Sample of usage
+```
+see-dashboard -basepath /Users/yu/workspace/daimler-oneapi/daimler-git -token xCMUhegsQY_Mb2yXdvUz -group_id 2070
+```
+#### optional arguments
+
+ 
+## Reference
+see[#1](https://eslint.org/docs/user-guide/command-line-interface)
+see[#2](http://pylint.pycqa.org/en/stable/user_guide/run.html)
+## original usage 
+
+```
+python ./src/git-analyzer.py --action create_pipelines \ --basepath=/Users/yu/workspace/daimler-oneapi/daimler-git \ --token=xCMUhegsQY_Mb2yXdvUz --group_id=2070
+
+```
